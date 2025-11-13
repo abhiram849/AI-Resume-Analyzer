@@ -61,4 +61,24 @@ This application uses:
 ---
 
 ## 📂 Project Structure
+## 📸 Screenshots
+
+### 🏠 Home Page – Upload Resume & Enter Job Description
+<div align="center">
+  <img src="screenshots/homepage.png" alt="Home Page" width="90%" style="border:1px solid #ccc; border-radius:8px;">
+</div>
+
+---
+
+### 📝 Filling Resume & Job Description
+<div align="center">
+  <img src="screenshots/input_form.png" alt="Input Form" width="90%" style="border:1px solid #ccc; border-radius:8px;">
+</div>
+
+---
+
+### 📊 Resume Match Result
+<div align="center">
+  <img src="screenshots/result_page.png" alt="Result Page" width="90%" style="border:1px solid #ccc; border-radius:8px;">
+</div>
 
