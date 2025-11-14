@@ -1,0 +1,83 @@
+/* ===== GLASSMORPHISM BACKGROUND ===== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #d8eefe, #f0f7ff);
+    font-family: 'Inter', sans-serif;
+    background-attachment: fixed;
+}
+
+/* Glassmorphism main card */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: 0.2s ease-in-out;
+    font-weight: 600;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: rgba(255, 255, 255, 0.65);
+}
+
+/* File Input */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.35);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Result box styles */
+.result-card {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+/* Score circle */
+.score-circle {
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+}
